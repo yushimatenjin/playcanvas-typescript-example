@@ -13,6 +13,7 @@ export const ebEvents = {
   "weapon:ammo:changed": "weapon:ammo:changed",
   "weapon:reloading:changed": "weapon:reloading:changed",
   "enemy:died": "enemy:died",
+  "jump": "jump"
 };
 
 export type TPlayerScoreChangedEvent = { newScore: number };
